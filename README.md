@@ -18,7 +18,7 @@
 
 Чтобы выделить текст как код, поместите его в тройные кавычки `````. 
 
-```
+```java
 public void sayHello() {
     System out println("Hello");
 }
@@ -26,3 +26,12 @@ public void sayHello() {
 ---
 Это лишь некоторые функции markdown.
 ---
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
